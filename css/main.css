@@ -1,3 +1,30 @@
 body {
     margin:0;
+    padding:0;
+    background: #FFE3BA;
+}
+
+.container {
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin: 200px auto 0 auto;
+    position: relative;
+}
+
+.head {
+    width: 400px;
+    height: 430px;
+    background-color: #FF6767;
+    border-radius: 200px 200px 30px 30px;
+    position: absolute;
+    top: 140px;
+    left: 50%;
+    transform: translateX(-50%);
+    transition: all 0.8s;
+}
+
+.head:hover {
+    transform: rotate(-12deg);
+    /* transform-origin: 0 100%; */
 }
